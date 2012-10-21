@@ -11,8 +11,8 @@ setup (
     url='',
     test_suite="tests",
     keywords = ['keyvalue', 'storage'],
-    py_modules = [],
-    scripts = ['kvsserver.py'],
+    py_modules = [ ],
+    scripts = ['kvs/kvsserver.py'],
 
     license='Apache 2.0 License',
     description='simple key value store',
